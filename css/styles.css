@@ -120,6 +120,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  height: 600px;
+  padding-top: 188px;
 }
 .main-title-header {
   width: 496px;
