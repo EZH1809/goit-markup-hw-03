@@ -26,8 +26,7 @@ body {
 
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .section {
@@ -56,9 +55,9 @@ body {
 .menu {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .menu-item {
+  padding: 24px 0;
 }
 .menu,
 .menu-adress-link,
@@ -68,6 +67,9 @@ body {
 .menu-adress-header {
   display: flex;
   align-items: center;
+}
+.menu-adress-item {
+  gap: 40px;
 }
 
 .logo {
