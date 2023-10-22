@@ -116,7 +116,6 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-
 }
 .menu-adress-description:hover,
 .menu-adress-description:focus {
@@ -125,7 +124,8 @@ body {
 /* === Hero == */
 .hero {
   background: #2e2f42;
-  padding: 188px;
+  padding-top: 188px;
+  padding-bottom: 188px;
   height: 600px;
 }
 .main-title {
@@ -137,7 +137,7 @@ body {
   color: #fff;
 }
 .main-title-header {
-  width: 496px;
+  max-width: 496px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -168,6 +168,20 @@ body {
 
 /*==Feature==*/
 .feature-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .feature-main-header {
   display: none;
@@ -176,7 +190,10 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
-  column-gap: 24px;
+  gap: 24px;
+}
+.feature-item-list {
+  width: calc((100% - 72px) / 4);
 }
 .feature-header {
   width: 264px;
@@ -185,13 +202,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .feature-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 8px;
 
   /*color: #434455;*/
 }
@@ -200,6 +217,8 @@ body {
 .light-bg {
   background-color: #f4f4fd;
   height: 732px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team-header {
   font-size: 36px;
@@ -209,8 +228,8 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
   text-align: center;
+  margin-bottom: 72px;
 }
 .team-item {
   list-style-type: none;
@@ -221,6 +240,10 @@ body {
 }
 .team-item-list {
   background-color: #fff;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-container {
+  padding: 32px 0;
 }
 .team-name {
   color: #2e2f42;
@@ -228,12 +251,11 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
+  margin-bottom: 8px;
+
   text-align: center;
 }
 .team-decription {
-  margin-top: 8px;
-  margin-bottom: 32px;
   text-align: center;
 
   font-size: 16px;
