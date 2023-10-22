@@ -156,11 +156,13 @@ body {
   background: #fff;
 }
 .feature-main-header {
+  display: none;
 }
 .feature-item {
   list-style-type: none;
   display: flex;
   align-items: center;
+  column-gap: 24px;
 }
 .feature-header {
   width: 264px;
@@ -175,6 +177,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-top: 8px;
 
   /*color: #434455;*/
 }
@@ -211,9 +214,13 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-top: 32px;
+  text-align: center;
 }
 .team-decription {
-  /*color: #434455;*/
+  margin-top: 8px;
+  margin-bottom: 32px;
+  text-align: center;
 
   font-size: 16px;
 
@@ -255,6 +262,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
 }
 .portfolio-text {
   font-size: 16px;
@@ -262,6 +270,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-top: 8px;
+  margin-bottom: 32px;
 
   /*color: #434455;*/
 }
