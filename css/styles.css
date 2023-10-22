@@ -139,8 +139,10 @@ body {
   color: #fff;
   cursor: pointer;
   display: block;
-  width: 169px;
-  height: 56px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
   border: none;
   border-radius: 4px;
   margin: auto;
@@ -153,7 +155,6 @@ body {
 
 /*==Feature==*/
 .feature-section {
-  background: #fff;
 }
 .feature-main-header {
   display: none;
