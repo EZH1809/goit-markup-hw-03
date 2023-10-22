@@ -313,24 +313,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  /*color: #434455;*/
+  /*Footer*/
 }
 .page-footer {
   background: #2e2f42;
-  height: 312px;
+
   padding: 100px 0;
 }
-.footer-decor {
-  padding-left: 156px;
-}
-.footer-text {
-  color: #f4f4fd;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 264px;
-}
+
 .logo-footer {
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -351,4 +341,12 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+.footer-text {
+  color: #f4f4fd;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 264px;
 }
