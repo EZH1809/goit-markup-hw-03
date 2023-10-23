@@ -45,12 +45,12 @@ body {
   display: flex;
   align-items: center;
   margin-right: auto;
+  padding: 24px 0;
 }
 .menu {
   gap: 40px;
 }
 .menu-item {
-  padding: 24px 0;
 }
 .menu,
 .menu-adress-item,
