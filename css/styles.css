@@ -26,8 +26,8 @@ body {
 
 .container {
   width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .section {
   padding-top: 120px;
@@ -35,13 +35,10 @@ body {
 }
 /*==Header==*/
 .page-header {
-  border-bottom: 1px;
-  border-color: #e7e9fc;
-  border-style: solid;
+  border-bottom: 1px solid #e7e9fc;
 }
 .container-style {
   display: flex;
-  /*justify-content: space-between;*/
 }
 
 .navigation {
@@ -50,21 +47,18 @@ body {
   margin-right: auto;
 }
 .menu {
-  display: flex;
   gap: 40px;
 }
 .menu-item {
   padding: 24px 0;
 }
 .menu,
-.menu-adress-link,
-.menu-item {
-  list-style-type: none;
-}
+.menu-adress-item,
 .menu-adress-header {
   display: flex;
   align-items: center;
   font-style: normal;
+  list-style-type: none;
 }
 
 .logo {
@@ -96,9 +90,7 @@ body {
 }
 
 .menu-adress-item {
-  display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .menu-adress-description {
