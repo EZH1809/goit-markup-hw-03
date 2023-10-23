@@ -41,7 +41,7 @@ body {
 }
 .container-style {
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 .navigation {
@@ -64,9 +64,7 @@ body {
 .menu-adress-header {
   display: flex;
   align-items: center;
-}
-.menu-adress-item {
-  gap: 40px;
+  font-style: normal;
 }
 
 .logo {
@@ -96,12 +94,11 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-.menu-adress-header {
-  font-style: normal;
-}
+
 .menu-adress-item {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .menu-adress-description {
