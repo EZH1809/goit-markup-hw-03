@@ -43,10 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-/*.header-container {
-  display: flex;
-  justify-content: space-between;
-}*/
+
 .navigation {
   display: flex;
   align-items: center;
@@ -104,7 +101,7 @@ body {
 }
 .menu-adress-item {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 /*.menu-adress-link {
