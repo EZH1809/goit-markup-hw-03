@@ -221,8 +221,7 @@ body {
   list-style-type: none;
   display: flex;
   align-items: center;
-  padding-top: 72px;
-  gap: 24px;
+   gap: 24px;
 }
 .team-item-list {
   background-color: #fff;
